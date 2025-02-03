@@ -1,0 +1,109 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios de dependências
+node_modules/
+vendor/
+bower_components/
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar arquivos de configuração local
+*.local
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de IDE
+.idea/
+.venv/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar arquivos de compilação
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignorar arquivos de cache
+.cache/
+.temp/
+
+# Ignorar arquivos de pacote
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignorar arquivos de documentação gerada
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Ignorar arquivos de teste e cobertura
+coverage/
+*.lcov
+
+# Ignorar arquivos de configuração do usuário
+*.user
+*.userprefs
+
+# Ignorar arquivos de depuração
+*.pdb
+*.idb
+*.ilk
+
+# Ignorar arquivos de backup
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignorar arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de cache do Ruby
+*.gem
+.bundle/
+
+# Ignorar arquivos de cache do Java
+*.class
+*.war
+*.ear
+
+# Ignorar arquivos de cache do PHP
+composer.lock
+vendor/
+
+# Ignorar arquivos de cache do Go
+bin/
+pkg/
+
+# Ignorar arquivos de cache do Rust
+/target/
